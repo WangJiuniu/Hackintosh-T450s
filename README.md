@@ -1,2 +1,17 @@
-# Hackintosh-T450s
-A record for installing Hackintosh on T450s laptop. And I believe it is also useful for other devices.
+# Hackintosh安装成功指南
+1. 综述
+本文以T450s安装MacOS系统的过程为例，讲述目前安装Hackintosh的常用方法和资源。安装过程是在win7系统中制作系统盘，然后根据设计的引导进行启动和系统安装。主要参考的教程包括“黑果小兵的部落格”微信公众号，以及聪聪黑苹果安装工具3.0（https://www.bilibili.com/s/video/BV1iE41157Vd）。  本文讲述的方法是使用黑果小兵的教程制作系统盘，然后驱动聪聪黑苹果做好的系统进行安装，所以单一采用某一种方案时没有成功的读者可以考虑尝试本文介绍的方案。此外，本文也将详细阐述Intel N7265无线网卡如何安装WIFI驱动。
+
+2. 系统盘制作
+
+
+
+3. 系统安装
+
+
+4. EFI设置及WIFI驱动安装
+
+
+5. Mac系统使用中的优化
+
+
