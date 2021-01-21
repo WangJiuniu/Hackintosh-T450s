@@ -1,9 +1,9 @@
 # Hackintosh安装成功指南（保姆级教程）
 ## 综述
 
-本文以T450s安装MacOS系统的过程为例，讲述目前安装Hackintosh的常用方法和资源。安装过程是在win7系统中制作系统盘，然后根据设计的引导进行启动和系统安装。主要参考的教程包括“[黑果小兵的部落格](https://mp.weixin.qq.com/s/4_djpn_u3_nmPvCMGHR-dw)”微信公众号，以及[聪聪黑苹果安装工具3.0](https://www.bilibili.com/s/video/BV1iE41157Vd)。  本文讲述的方法是使用黑果小兵的教程制作系统盘，然后驱动聪聪黑苹果做好的系统进行安装，所以单一采用某一种方案时没有成功的读者可以考虑尝试本文介绍的方案。此外，本文也将详细阐述Intel N7265无线网卡如何安装WIFI等核心驱动。
+本文以T450s安装MacOS系统的过程为例，讲述目前安装Hackintosh的常用方法和资源。安装过程是在win7系统中制作系统盘，然后根据设计的引导进行启动和系统安装。主要参考的教程包括“[黑果小兵的部落格](https://mp.weixin.qq.com/s/4_djpn_u3_nmPvCMGHR-dw)”微信公众号，以及[聪聪黑苹果安装工具3.0](https://www.bilibili.com/s/video/BV1iE41157Vd)。  本文讲述的方法是使用黑果小兵的教程制作系统盘，然后驱动聪聪黑苹果做好的系统进行安装，所以单一采用某一种方案时没有成功的读者可以考虑尝试本文介绍的方案。此外，本文也将阐述Intel系列无线网卡如何安装WIFI等核心驱动。
 
-## 系统盘制作
+## [系统盘制作](https://github.com/WangJiuniu/Hackintosh-T450s/tree/main/make_system_oc)
 
 首先按照[黑果小兵](https://mp.weixin.qq.com/s/4_djpn_u3_nmPvCMGHR-dw)的教程下载dmg镜像（需要在公众号中打赏获得下载链接），然后用etcher软件将dmg镜像安装到u盘中。接着根据[列表](https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html)中的EFI进行尝试，采用DiskGenis软件将EFI文件进行替换。顺利的话，此时再稍微调整BIOS就能够安装成功，但不幸的是很多人都会卡在某一条命令上。
 
@@ -18,7 +18,7 @@
 
 正常进入系统后，安装过程按照聪聪黑苹果提供的[视频](https://www.bilibili.com/s/video/BV1iE41157Vd)进行即可。
 
-## EFI设置及WIFI驱动、声卡驱动安装
+## [EFI设置及WIFI驱动、声卡驱动安装](https://github.com/WangJiuniu/Hackintosh-T450s/tree/main/EFI_and_WIFI)
 
 安装完之后，由于EFI是在U盘中，需要按照黑果小兵的教程将EFI从U盘拷贝到系统硬盘。
 
@@ -26,7 +26,7 @@
 
 这一过程的详细步骤和教程请点击[这里](https://github.com/WangJiuniu/Hackintosh-T450s/tree/main/EFI_and_WIFI)。
 
-## Mac系统使用中的优化
+## [Mac系统使用中的优化](https://github.com/WangJiuniu/Hackintosh-T450s/tree/main/system_trick)
 
 系统安装完成后，仍然有一些细节可以提升整体体验（如：键盘键位设置）。这一过程的详细步骤和教程请点击[这里](https://github.com/WangJiuniu/Hackintosh-T450s/tree/main/system_trick)。
 
